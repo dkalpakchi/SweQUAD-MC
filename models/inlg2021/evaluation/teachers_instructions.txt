@@ -1,0 +1,3 @@
+Tack för att du deltar i vår undersökning! Du kommer att få se ett antal tester. Varje test innehåller en text, en läsförståelsefråga för den texten, det explicit markerade rätta svaret för frågan och ett antal förslag för felaktiga, men troliga alternativ (distraktorer).
+
+Antag att du skulle vilja använda  den givna frågan för att testa läsförståelse av den givna texten. Din uppgift är att bedöma vilka av de föreslagna distraktorerna (om någon) som passar bra för just detta. Markera passande distraktorer genom att kryssa i respektive kryssrutor. För de andra distraktorerna (som du inte valde), skriv gärna dina anledningar till varför distraktorerna var olämpliga i respektive textytor (gärna max 1 mening).

@@ -43,13 +43,13 @@ The instructions for data collection as well as the list of websites and urls ar
 ##### IMPORTANT
 If you find any typos, mistakes or other inconsistencies, please contact the first author of the paper at ``dmytroka@kth.se``.
 
-## Model implemenetations
-The implementation of our baseline and two BERT-based models is provided in the `models/inlg2021` folder in the folders `baseline` and `bert_based`, respectively.
+## Model implemenetations and evaluation
+The implementation of our baseline and two BERT-based models is provided in the `models/inlg2021` folder in the folders `baseline` and `bert_based`, respectively. The instructions used for human evaluation are provided in the folder `models/inlg2021/evaluation`.
 
 ##### IMPORTANT
 If you want to get access to the trained BERT-based models, please contact the first author of the paper at ``dmytroka@kth.se``.
 
-## How to train models
+## How to train your own models
 Baseline model doesn't need to be trained. BERT-based models can be trained by running a training script `trainer.py` (from the folder `models/inlg2021/bert_based`) with the appropriate arguments. All argumesnts for the script are explain if you simply run `python3 trainer.py -h`
 
 ## How to use models
