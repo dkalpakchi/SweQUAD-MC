@@ -45,7 +45,7 @@ The instructions for data collection as well as the list of websites and urls ar
 ##### IMPORTANT
 If you find any typos, mistakes or other inconsistencies, please contact the first author of the paper at ``dmytroka@kth.se``.
 
-## Model implemenetations and evaluation
+## Model implementations and evaluation
 The implementation of our baseline and two BERT-based models is provided in the `models/inlg2021` folder in the folders `baseline` and `bert_based`, respectively. The instructions used for human evaluation are provided in the folder `models/inlg2021/evaluation`.
 
 ##### IMPORTANT
