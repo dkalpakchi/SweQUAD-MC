@@ -1,0 +1,12 @@
+Tänk dig att du är en lärare som ska kontrollera dina elevers läsförståelse. Givet en viss text är din uppgift nu att skapa en eller flera flervalsfrågor utifrån texten. Det vill säga:
+* formulera en fråga där svaret finns i texten;
+* markera det rätta svaret i texten;
+* markera några (troliga men felaktiga) svarsalternativ i texten.
+
+När du har skrivit ned din fråga och markerat det rätta svaret och de felaktiga svarsalternativen i texten, trycker du på "Submit". När du formulerar frågan, tänk på följande råd.
+* Frågan måste vara självständig, d.v.s. man skulle inte behöva någon annan information (förutom texten som är tillgänglig) för att svara på frågan.
+* Frågan måste vara entydig och kan bara tolkas på ett sätt.
+* Man skall helst inte kunna svara på din fråga utan att ha läst texten. Därför bör även felaktiga svar vara rimliga.
+* Felaktiga svar måste vara i samma grammatiska form som det rätta svaret, t.ex. om det rätta svaret börjar med ett verb i dåtid, så måste alla felaktiga svar börja med ett verb i dåtid.
+
+Hitta så många frågor du kan (+ rätta svar och felaktiga svarsalternativ) på varje text och få en ny text när du inte kan komma på fler.

@@ -38,6 +38,8 @@ The original split into training, development and test sets is available in the 
 ```
 ``start`` and ``end`` fields are the character positions in the ``context``, where each alternative can be found, i.e., ``context[start:end]``. Note that it was required that both the correct answer and all distractors exist in the text, however, if slight reformulations are needed (e.g., changing of grammatical form), there is the field ``extra``. If ``extra`` is ``null``, then no reformulation was deemed necessary, otherwise, the reformulation is given in the ``comment`` field.
 
+The instructions for data collection as well as the list of websites and urls are provided in the same folder. We attempted to split longer crawled texts into separate pieces of at least 400 words long each (since they typically contained sections of information). Shorter texts were required to contain at least 200 words to be considered.
+
 ##### IMPORTANT
 If you find any typos, mistakes or other inconsistencies, please contact the first author of the paper at ``dmytroka@kth.se``.
 
