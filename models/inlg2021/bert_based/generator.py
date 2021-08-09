@@ -196,13 +196,13 @@ class Generator:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--file', type=str, required=True, help="Checkpoint path")
-    parser.add_argument('-d', '--dataset', type=str, default="data/dev_cunique_with_distractors.json", help="Dataset path")
+    parser.add_argument('-d', '--dataset', type=str, required=True, help="Dataset path")
     parser.add_argument('-dg', '--dg-file', type=str, required=True, help="DG settings file")
     parser.add_argument('-o', '--output', type=str, help="Output file")
     parser.add_argument('-fdgt', '--force-dg-tokens', action='store_true', help='Force adding distractor tokens when generating')
-    parser.add_argument('-nlo', '--non-linear-order', action='store_true')
-    parser.add_argument('-n', '--num-distractors', default=3, type=int)
-    parser.add_argument('-ls', '--length-strategy', default='min_first')
+    parser.add_argument('-nlo', '--non-linear-order', action='store_true', help='A flag to generate in a non-linear order (works only for u-PMLM models)')
+    parser.add_argument('-n', '--num-distractors', default=3, type=int, help='Number of didstractors to be generated')
+    parser.add_argument('-ls', '--length-strategy', default='min_first', help='The order of generation for u-PMLM models: one of min_first, max_first or random')
     args = parser.parse_args()
 
     path = args.file

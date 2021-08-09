@@ -38,11 +38,27 @@ The original split into training, development and test sets is available in the 
 ```
 ``start`` and ``end`` fields are the character positions in the ``context``, where each alternative can be found, i.e., ``context[start:end]``. Note that it was required that both the correct answer and all distractors exist in the text, however, if slight reformulations are needed (e.g., changing of grammatical form), there is the field ``extra``. If ``extra`` is ``null``, then no reformulation was deemed necessary, otherwise, the reformulation is given in the ``comment`` field.
 
-**IMPORTANT**
+##### IMPORTANT
 If you find any typos, mistakes or other inconsistencies, please contact the first author of the paper at ``dmytroka@kth.se``.
 
+## Model implemenetations
+The implementation of our baseline and two BERT-based models is provided in the `models/inlg2021` folder in the folders `baseline` and `bert_based`, respectively.
+
+##### IMPORTANT
+If you want to get access to the trained BERT-based models, please contact the first author of the paper at ``dmytroka@kth.se``.
+
+## How to train models
+Baseline model doesn't need to be trained. BERT-based models can be trained by running a training script `trainer.py` (from the folder `models/inlg2021/bert_based`) with the appropriate arguments. All argumesnts for the script are explain if you simply run `python3 trainer.py -h`
+
 ## How to use models
-Example of using the generator:
+To generate text using the baseline model, please change directory to `models/inlg2021/baseline` and run
+```
+python3 model.py -f ../../../data/dev.json -l sv
+```
+
+To generate text using the BERT-based model, please change directory to `models/inlg2021/bert_based` and run
 ```
 python3 generator.py -f checkpoint-3500 -dg dg_args.bin -o res_dev_nlo_min_first.txt -d ../../../data/dev.json -nlo -ls min_first
 ```
+
+All flags for the scripts are explained if you simply run `python3 <file.py> -h`.

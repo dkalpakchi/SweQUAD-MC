@@ -11,8 +11,8 @@ from utils import read_dataset_from_files
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-l', '--lang', default='sv', type=str, help='A language for template generation (en, sv are currently supported)')
-    parser.add_argument('-f', '--files', type=str, help='Comma-separated list of files to generate distractors from')
+    parser.add_argument('-l', '--lang', default='sv', type=str, help='A language to be used')
+    parser.add_argument('-f', '--files', type=str, help='Comma-separated list of JSON files to generate distractors from')
     args = parser.parse_args()
 
     dep_proc = 'tokenize,lemma,mwt,pos,depparse' if args.lang in ['fi', 'ar'] else 'tokenize,lemma,pos,depparse'

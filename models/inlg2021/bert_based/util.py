@@ -15,7 +15,7 @@ class DGArguments:
 
     dev_data: str = dc.field(
         default=None,
-        metadata={"help": "A CSV list of training data files"}
+        metadata={"help": "A CSV list of validation data files"}
     )
 
     freeze_encoder: bool = dc.field(
