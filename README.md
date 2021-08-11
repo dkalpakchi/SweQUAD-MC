@@ -1,5 +1,5 @@
 # SweQUAD-MC
-The official repository for SweQUAD-MC dataset - the first Swedish dataset of multiple-choice questions (MCQs) for reading comprehension. The repository also contains the original implementation of our distractor generation models, described in the paper "BERT-based distractor generation for Swedish reading comprehension questions using a small-scale dataset".
+The official repository for SweQUAD-MC dataset - the first Swedish dataset of multiple-choice questions (MCQs) for reading comprehension. The repository also contains the original implementation of our distractor generation models, described in the paper ["BERT-based distractor generation for Swedish reading comprehension questions using a small-scale dataset"](https://arxiv.org/abs/2108.03973).
 
 **NOTE**: the code is distributed under the MIT license, but the data is distributed under the Creative Commons Attribution 4.0 International license. Both of these licenses are simple and permissive, subject to the preservation of the copyright, but will otherwise give you a lot of freedom.
 
