@@ -1,5 +1,7 @@
 # SweQUAD-MC
-The official repository for SweQUAD-MC dataset - the first Swedish dataset of multiple-choice questions (MCQs) for reading comprehension. The repository also contains the original implementation of our distractor generation models, described in the paper "BERT-based distractor generation for Swedish reading comprehension questions using a small-scale dataset".
+The official repository for SweQUAD-MC dataset - the first Swedish dataset of multiple-choice questions (MCQs) for reading comprehension. The repository also contains the original implementation of our distractor generation models, described in the paper ["BERT-based distractor generation for Swedish reading comprehension questions using a small-scale dataset"](https://arxiv.org/abs/2108.03973).
+
+**NOTE**: the code is distributed under the MIT license, but the data is distributed under the Creative Commons Attribution 4.0 International license. Both of these licenses are simple and permissive, subject to the preservation of the copyright, but will otherwise give you a lot of freedom.
 
 ## Information about SweQUAD-MC
 The original split into training, development and test sets is available in the `data` folder. Descriptive statistics of all splits can be found in the original paper. Each set is a JSON file with each MCQ having the following format (note that the ``context`` is truncated only for presentation purposes):
@@ -43,7 +45,7 @@ The instructions for data collection as well as the list of websites and urls ar
 ##### IMPORTANT
 If you find any typos, mistakes or other inconsistencies, please contact the first author of the paper at ``dmytroka@kth.se``.
 
-## Model implemenetations and evaluation
+## Model implementations and evaluation
 The implementation of our baseline and two BERT-based models is provided in the `models/inlg2021` folder in the folders `baseline` and `bert_based`, respectively. The instructions used for human evaluation are provided in the folder `models/inlg2021/evaluation`.
 
 ##### IMPORTANT
